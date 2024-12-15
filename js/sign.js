@@ -21,7 +21,7 @@ $('#dangnhap').click(function (e) {
         return false;
     }
     if(!ktpassword.test(password.value)) {
-        alert('Phải có chữ hoa và chữ thường hoặc chữ thường và số');
+        alert('Password phải có chữ hoa và chữ thường hoặc chữ thường và số');
         password.focus;
         return false;
     }
